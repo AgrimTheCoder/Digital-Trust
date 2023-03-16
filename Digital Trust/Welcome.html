@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+
+    <style>
+        body {
+        background-image: url("images/Welcome page background.jpeg");
+        }
+
+        img{
+        width: 400px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+
+        }
+
+        p{
+        text-align:center;
+        font-size: 35px;
+        font-family: Garamond;
+        font-color: green;
+        }
+
+
+    </style>
+    <style>
+        canvas{
+        border: 1px solid black;
+        background: DodgerBlue;
+        height: 100%;
+        width: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+<a href="about_us.html">About Us</a>
+<img src="images/Logo of digital trust website.jpg" alt="Logo of digital trust website">
+
+<p>Hello and welcome to our website, here we are going to see what is <b>Digital trust</b> so be ready!</p>
+
+<p><b>Click next to start learning!</b></p>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 10vh;">
+<form>
+  <button type="submit" formaction="index.html">Next</button>
+</form>
+</div>
+
+<canvas></canvas>
+<script>
+    var canvas = document.querySelector('canvas')
+         ;
+    canvas.width = window.innerWidth;
+    console.log(canvas);
+
+    var c = canvas.getContext('2d');
+
+    c.fillStyle = 'rgba(20,1,400.1)';
+    c.fillRect(1,1,100,150);
+    c.fillStyle = 'rgba(1000,1,1.1)';
+    c.fillRect(200,1,100,150);
+    c.fillStyle = 'rgba(1,1000,1.1)';
+    c.fillRect(200,1,100,150);
+    c.fillStyle = 'rgba(255,191,203.1)';
+    c.fillRect(300,1,100,150);
+    c.fillStyle = 'rgba(255,255,0.1)';
+    c.fillRect(400,1,100,150);
+    c.fillStyle = 'rgba(20,1,400.1)';
+    c.fillRect(500,1,100,150);
+    c.fillStyle = 'rgba(1000,1,1.1)';
+    c.fillRect(600,1,100,150);
+    c.fillStyle = 'rgba(1,1000,1.1)';
+    c.fillRect(700,1,100,150);
+    c.fillStyle = 'rgba(255,191,203.1)';
+    c.fillRect(800,1,100,150);
+    c.fillStyle = 'rgba(255,255,0.1)';
+    c.fillRect(900,1,100,150);
+    c.fillStyle = 'rgba(1000,1,1.1)';
+    c.fillRect(1000,1,100,150);
+    c.fillStyle = 'rgba(1,1000,1.1)';
+    c.fillRect(1100,1,100,150);
+    console.log(canvas);
+
+
+</script>
+
+</body>
+</html>
